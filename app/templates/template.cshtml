@@ -1,0 +1,11 @@
+@{
+  Layout = "../_ComponentModuleLayout.cshtml";
+	ViewBag.Id = "sg-<%= moduleName %>";
+	ViewBag.Title = "<%= moduleName %>";
+	ViewBag.Keycode = "";
+	ViewBag.Status = 1;
+}
+
+<div class="sg-example" data-label="<%= moduleName %>">
+  <p class="sg-description>This is the <%= moduleName %> module!</p>
+</div>
